@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: sample-app-2-git-repo
+  namespace: sample-app-2
+spec:
+  interval: 30s
+  ref:
+    branch: main
+  url: https://github.com/rkdutta/gitops-training-app-repo
