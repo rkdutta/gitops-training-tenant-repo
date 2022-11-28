@@ -16,7 +16,7 @@ metadata:
   name: sample-app
 spec:
   interval: 5m0s
-  path: ./apps/sample-app-1
+  path: ./apps/sample-app-2
   prune: true
   sourceRef:
     kind: GitRepository
