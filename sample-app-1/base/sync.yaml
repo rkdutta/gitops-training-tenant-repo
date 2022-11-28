@@ -33,4 +33,4 @@ spec:
       annotations:
         cluster-name: cluster-1
       labels:
-        env: raw-base
+        env: base
