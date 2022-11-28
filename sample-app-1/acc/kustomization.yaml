@@ -3,3 +3,5 @@ kind: Kustomization
 resources:
 - sync.yaml
 namespace: sample-app-1
+patchesStrategicMerge:
+  - patch.yaml
