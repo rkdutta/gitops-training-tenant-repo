@@ -22,3 +22,12 @@ spec:
     kind: GitRepository
     name: sample-app-git-repo
   validation: client
+  patchesStrategicMerge:
+  - apiVersion: v1
+    kind: Pod
+    metadata:
+      name: sample-app-1
+      annotations:
+        cluster-name: dev
+      labels:
+        env: dev
