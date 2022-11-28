@@ -22,5 +22,5 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: sample-app-git-repo-dev
+    name: sample-app-git-repo
   validation: client
