@@ -1,4 +1,4 @@
 ---
 - op: replace
-  path: /pod/metadata/labels/env
+  path: /metadata/labels/env
   value: acc
