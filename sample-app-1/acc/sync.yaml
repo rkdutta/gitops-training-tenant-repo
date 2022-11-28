@@ -30,4 +30,4 @@ spec:
     name: sample
     namespace: sample
     annotations:
-      cluster-name: cluster-1
+      cluster-name: acc
