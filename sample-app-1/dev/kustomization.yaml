@@ -4,14 +4,14 @@ resources:
 - sync.yaml
 namespace: sample-app-1
 #nameSuffix: -dev
-# patchesStrategicMerge:
-# - |-
-#   apiVersion: v1
-#     kind: Pod
-#     metadata:
-#       name: sample-pod
-#       namespace: tenant-sample-app-1
-#       annotations:
-#         cluster-name: cluster-1
-#       labels:
-#         env: dev
+patchesStrategicMerge:
+- |-
+  apiVersion: v1
+    kind: Pod
+    metadata:
+      name: sample-app-1
+      namespace: sample-app-1
+      annotations:
+        cluster-name: dev
+      labels:
+        env: dev
