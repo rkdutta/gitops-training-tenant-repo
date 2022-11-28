@@ -24,13 +24,3 @@ spec:
     kind: GitRepository
     name: sample-app-git-repo
   validation: client
-  patchesStrategicMerge:
-  - apiVersion: v1
-    kind: Pod
-    metadata:
-      name: sample-pod
-      namespace: tenant-sample-app-1
-      annotations:
-        cluster-name: cluster-1
-      labels:
-        env: dev
