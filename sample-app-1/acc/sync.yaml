@@ -27,7 +27,7 @@ spec:
   apiVersion: v1
   kind: Pod
   metadata:
-    name: sample
-    namespace: sample
+    name: sample-app-1
+    namespace: sample-app-1
     annotations:
       cluster-name: acc
