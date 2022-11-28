@@ -27,6 +27,6 @@ spec:
     kind: Pod
     metadata:
       name: sample-app-1
-      namespace: sample-app-1
+      #namespace: sample-app-1
       annotations:
         cluster-name: acc
