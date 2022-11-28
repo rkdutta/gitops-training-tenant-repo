@@ -3,7 +3,6 @@ kind: Kustomization
 resources:
 - sync.yaml
 namespace: sample-app-1
-#nameSuffix: -dev
 patchesStrategicMerge:
 - |-
   apiVersion: v1
