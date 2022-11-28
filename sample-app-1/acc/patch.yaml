@@ -1,4 +1,10 @@
 ---
-- op: replace
-  path: /metadata/labels/env
-  value: acc
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sample-app-1
+  namespace: sample-app-1
+  labels:
+    env: acc
+  annotations:
+    cluster-name: acc

@@ -5,10 +5,10 @@ resources:
 namespace: sample-app-1
 # patchesStrategicMerge:
 #   - patch.yaml
-patchesJson6902:
-- target:
-    version: v1
-    kind: Pod
-    name: sample-app-1
-    namespace: sample-app-1
-  path: patch.yaml
+# patchesJson6902:
+# - target:
+#     version: v1
+#     kind: Pod
+#     name: sample-app-1
+#     namespace: sample-app-1
+#   path: patch.yaml
