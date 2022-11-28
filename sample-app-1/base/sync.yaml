@@ -32,5 +32,5 @@ spec:
       namespace: tenant-sample-app-1
       annotations:
         cluster-name: cluster-1
-      # labels:
-      #   env: raw-base
+      labels:
+        env: raw-base
