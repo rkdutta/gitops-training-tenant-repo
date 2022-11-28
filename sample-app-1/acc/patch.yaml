@@ -6,3 +6,5 @@ metadata:
   namespace: sample-app-1
   annotations:
     cluster-name: acc
+  labels:
+    env: acc
