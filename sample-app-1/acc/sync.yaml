@@ -23,7 +23,8 @@ spec:
     name: sample-app-git-repo
   validation: client
   patchesStrategicMerge:
-  - apiVersion: v1
+  - |- 
+    apiVersion: v1
     kind: Pod
     metadata:
       name: sample-app-1
