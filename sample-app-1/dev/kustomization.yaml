@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - sync.yaml
 namespace: tenant-sample-app-1-dev
-namePrefix: dev-
+nameSuffix: -dev
 # patchesStrategicMerge:
 # - |-
 #   apiVersion: v1
