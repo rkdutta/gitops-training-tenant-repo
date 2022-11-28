@@ -23,4 +23,12 @@ spec:
     name: sample-app-git-repo
   validation: client
   patchesStrategicMerge:
-  - ./patch.yaml
+  - apiVersion: v1
+    kind: Pod
+    metadata:
+      name: sample-app-1
+      namespace: sample-app-1
+      annotations:
+        cluster-name: acc
+      labels:
+        env: acc
