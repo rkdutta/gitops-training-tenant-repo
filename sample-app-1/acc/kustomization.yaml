@@ -12,3 +12,12 @@ namespace: sample-app-1
 #     name: sample-app-1
 #     namespace: sample-app-1
 #   path: patch.yaml
+patchesStrategicMerge:
+- |-
+  apiVersion: v1
+  kind: Pod
+  metadata:
+    name: sample
+    namespace: sample
+    annotations:
+      cluster-name: cluster-1
